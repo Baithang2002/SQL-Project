@@ -1,15 +1,19 @@
-# Kaubru Translator App 🌿
+# SQL Project 🗄️
 
-A mobile dictionary and translation app for the **Kaubru (Bru) language** of Northeast India, built to help preserve and promote the language for the community.
+A structured SQL project covering core Database Management System (DBMS) concepts, written as part of the PMKVY Junior Software Developer training program.
 
 ---
 
-## 📱 Features
+## 📚 Topics Covered
 
-- 🔍 **Offline Dictionary Search** — Search Kaubru words without an internet connection using a local SQLite database
-- 🤖 **AI-Powered Translation** — Translate Kaubru to English using Google Gemini API
-- 📖 **Personal Word Manager** — Add and manage your own words and meanings
-- ⚡ **Fast & Lightweight** — Built with performance in mind for low-end devices
+- ✅ **DDL** — CREATE, ALTER, DROP, TRUNCATE
+- ✅ **DML** — INSERT, UPDATE, DELETE
+- ✅ **DQL** — SELECT with WHERE, ORDER BY, GROUP BY
+- ✅ **Keys** — Primary Key, Foreign Key, Unique Key, Composite Key
+- ✅ **Joins** — INNER, LEFT, RIGHT, FULL OUTER
+- ✅ **Normalization** — 1NF, 2NF, 3NF
+- ✅ **ACID Properties** — Atomicity, Consistency, Isolation, Durability
+- ✅ **Constraints** — NOT NULL, DEFAULT, CHECK
 
 ---
 
@@ -17,51 +21,47 @@ A mobile dictionary and translation app for the **Kaubru (Bru) language** of Nor
 
 | Technology | Purpose |
 |---|---|
-| React Native + Expo | Mobile app framework |
-| SQLite (expo-sqlite) | Offline dictionary storage |
-| Google Gemini API | AI translation |
-| JavaScript | App logic |
+| MySQL | Database engine |
+| SQL | Query language |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js
-- Expo CLI
-- Android device or emulator
+- MySQL installed (or any SQL client like MySQL Workbench, DBeaver)
 
-### Installation
+### Run the SQL File
 
 ```bash
-# Clone the repository
-git clone https://github.com/Baithang2002/kaubru-translator.git
+# Log into MySQL
+mysql -u root -p
 
-# Navigate into the project
-cd kaubru-translator
-
-# Install dependencies
-npm install
-
-# Start the app
-npx expo start
+# Run the SQL file
+source path/to/sql_project.sql;
 ```
+
+Or open the `.sql` file directly in **MySQL Workbench** and execute it.
 
 ---
 
-## 🌏 About the Kaubru Language
+## 📁 File Structure
 
-Kaubru (also known as Bru) is the language of the Bru/Reang tribal community of Northeast India, spoken across Mizoram, Tripura, and Assam. This app is a personal effort to digitize and preserve the language for future generations.
+```
+SQL-Project/
+│
+└── sql_project.sql       # Main SQL file with all queries and table definitions
+```
 
 ---
 
 ## 📌 Status
 
-🚧 Currently under active development.
+✅ Complete. Part of PMKVY Junior Software Developer coursework.
 
 ---
 
 ## 👤 Author
 
 **Baithangha Reang**
-- GitHub: [@Baithang2002](https://github.com/Baithang2002)
+- GitHub: [@Baithang2002](https://github.com/Baithang2002/SQL-Project)
